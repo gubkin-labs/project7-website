@@ -1,6 +1,6 @@
-# VIIO Astro Theme
+# project7-website Astro Theme
 
-VIIO is an experimental Astro landing page theme featuring interactive Three.js elements.
+project7-website is an experimental Astro landing page theme featuring interactive Three.js elements.
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ Edit the following files to customize links, content, and layout details:
 ## Preview
 
 Live preview:  
-https://viio.pages.dev/
+https://project7-website.pages.dev/
 
 ## Installation
 
