@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import HeroHome from "../components/HeroHome.astro";
 import TextMarquee from "../components/TextMarquee.astro";
 import GalleryText from "../components/GalleryText.astro";
-import ImageMarquee from "../components/ImageMarquee.astro";
 import Faqs from "../components/Faqs.astro";
 import StepsTimeline from "../components/StepsTimeline.astro";
 import Plans from "../components/Plans.astro";
@@ -11,20 +10,11 @@ import Statements from "../components/Statements.astro";
 import Introducing from "../components/Introducing.astro";
 import GL from "../components/GL.astro";
 import GLPlaces from "../components/GlPlaces.astro";
-
-import logo1 from "../assets/logoipsum-344.svg";
-import logo2 from "../assets/logoipsum-350.svg";
-import logo3 from "../assets/logoipsum-345.svg";
-import logo4 from "../assets/logoipsum-385.svg";
-import logo5 from "../assets/logoipsum-375.svg";
-import logo6 from "../assets/logoipsum-378.svg";
-import logo7 from "../assets/logoipsum-346.svg";
-import logo8 from "../assets/logoipsum-331.svg";
 ---
 
 <Layout title="Home">
   <HeroHome
-    title="Create Stunning Social Media Videos"
+    title="Stunning Explainer AI Videos"
     subtitle={`Create 
       long videos in minutes with rich animations and effects while keeping price per video low.
     `}
@@ -51,7 +41,7 @@ import logo8 from "../assets/logoipsum-331.svg";
     title="How it works"
     items={[
       {
-        title: "Sign in and enter your video idea",
+        title: "Enter your video idea",
         text: "Describe the video you want to create, and our AI will generate a unique video based on your input.",
       },
       {
@@ -103,16 +93,16 @@ import logo8 from "../assets/logoipsum-331.svg";
   <Statements
     items={[
       {
-        title: "For modern teams",
-        text: "Every feature is designed to reduce complexity and maximize execution speed.",
+        title: "AI-Powered Creation",
+        text: "Our AI generates unique videos with rich animations based on your concept, not generic templates.",
       },
       {
-        title: "Scales as you grow",
-        text: "Whether you’re a solo creator or a global team, the platform adapts to your workflow.",
+        title: "Full Creative Control",
+        text: "Edit every element of your video—from animations to effects—to match your vision perfectly.",
       },
       {
-        title: "Real outcomes",
-        text: "Less busywork, more progress—so you can deliver meaningful results consistently.",
+        title: "Fast & Affordable",
+        text: "Create professional quality videos in minutes while keeping your cost per video low.",
       },
     ]}
   />
@@ -120,10 +110,10 @@ import logo8 from "../assets/logoipsum-331.svg";
   <TextMarquee
     class="marquee"
     texts={[
-      "Creative Firepower",
-      "Built for Speed",
-      "Trusted by Professionals",
-      "Simple, Transparent Pricing",
+      "AI-Powered Videos",
+      "Rich Animations",
+      "Full Editing Control",
+      "Affordable Pricing",
     ]}
   />
 
@@ -176,66 +166,29 @@ import logo8 from "../assets/logoipsum-331.svg";
     subtitle="Quick answers to the most common questions."
     items={[
       {
-        question: "Who is this platform for?",
+        question: "How does the AI video generation work?",
         answer:
-          "It’s built for creators, startups, agencies, and teams who want to move faster without sacrificing quality or control.",
+          "Simply describe your video concept, and our AI creates a unique video with rich animations and effects. You can then edit every element to match your vision.",
       },
       {
-        question: "Can I upgrade or downgrade at any time?",
+        question: "Can I edit the generated videos?",
         answer:
-          "Yes. You can change plans whenever you need, with no penalties or long-term contracts.",
+          "Absolutely. You have full control to edit text, images, animations, effects, and every other aspect of your video.",
       },
       {
-        question: "Does the free plan really cost nothing?",
+        question: "What video formats do you support?",
         answer:
-          "Absolutely. The free plan gives you full access to core features so you can evaluate the platform with confidence.",
+          "Videos can be exported in various formats optimized for different social media platforms including Instagram, TikTok, YouTube, and more.",
       },
       {
-        question: "Is my data secure?",
+        question: "Can I change my plan at any time?",
         answer:
-          "Yes. We use industry-standard security practices to protect your data and ensure reliability.",
+          "Yes. You can upgrade or downgrade your plan anytime with no penalties. Unused videos don't roll over to the next month.",
       },
       {
-        question: "Do you offer support during onboarding?",
+        question: "What happens if I exceed my monthly video limit?",
         answer:
-          "Premium users receive guided onboarding and priority support to ensure a smooth start.",
-      },
-    ]}
-  />
-
-  <ImageMarquee
-    images={[
-      {
-        src: logo1.src,
-        alt: "Logo 1",
-      },
-      {
-        src: logo3.src,
-        alt: "Logo 3",
-      },
-      {
-        src: logo4.src,
-        alt: "Logo 4",
-      },
-      {
-        src: logo8.src,
-        alt: "Logo 8",
-      },
-      {
-        src: logo5.src,
-        alt: "Logo 5",
-      },
-      {
-        src: logo6.src,
-        alt: "Logo 6",
-      },
-      {
-        src: logo2.src,
-        alt: "Logo 2",
-      },
-      {
-        src: logo7.src,
-        alt: "Logo 7",
+          "You can either upgrade to a higher tier or purchase additional videos as needed. We'll notify you before you reach your limit.",
       },
     ]}
   />
