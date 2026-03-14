@@ -122,7 +122,7 @@ import GLPlaces from "../components/GlPlaces.astro";
     subtitle="Start for free, upgrade when you’re ready. No hidden fees, no long-term commitments."
     items={[
       {
-        title: "Free Plan",
+        title: "Free",
         price: {
           amount: "$0",
           duration: "month",
@@ -132,29 +132,65 @@ import GLPlaces from "../components/GlPlaces.astro";
           url: "#",
         },
         features: [
-          { title: "Up to 50 accounts" },
-          { title: "Unlimited projects" },
+          { title: "3 video generations / month" },
+          { title: "Full editing control" },
           { title: "Chat support", disabled: true },
-          { title: "Email support", disabled: true },
+          { title: "Priority support", disabled: true },
           { title: "Custom onboarding", disabled: true },
         ],
       },
       {
-        title: "Premium Plan",
+        title: "Starter",
         price: {
           amount: "$20",
           duration: "month",
         },
         link: {
-          title: "Start 14-Day Trial",
+          title: "Get Started",
           url: "#",
         },
         features: [
-          { title: "Up to 50 accounts" },
-          { title: "Unlimited projects" },
-          { title: "Priority chat support" },
-          { title: "Email support" },
-          { title: "Custom onboarding assistance" },
+          { title: "50 video generations / month" },
+          { title: "Full editing control" },
+          { title: "Chat support" },
+          { title: "Priority support", disabled: true },
+          { title: "Custom onboarding", disabled: true },
+        ],
+      },
+      {
+        title: "Pro",
+        price: {
+          amount: "$100",
+          duration: "month",
+        },
+        link: {
+          title: "Get Started",
+          url: "#",
+        },
+        features: [
+          { title: "250 video generations / month" },
+          { title: "Full editing control" },
+          { title: "Chat support" },
+          { title: "Priority support" },
+          { title: "Custom onboarding", disabled: true },
+        ],
+      },
+      {
+        title: "Enterprise",
+        price: {
+          amount: "$1000",
+          duration: "month",
+        },
+        link: {
+          title: "Contact Us",
+          url: "#",
+        },
+        features: [
+          { title: "1000 video generations / month" },
+          { title: "Full editing control" },
+          { title: "Chat support" },
+          { title: "Priority support" },
+          { title: "Custom onboarding" },
         ],
       },
     ]}
