@@ -1,6 +1,5 @@
 ---
 import Button from "./Button.astro";
-import Logo from "../assets/logo.svg";
 import type { Link } from "../types";
 
 interface Props {
@@ -19,7 +18,8 @@ const { logoUrl, logoAlt, link1, link2, links } = Astro.props;
     <div class="inner u-container">
       <div class="wrapper">
         <a class="logo" href={logoUrl}>
-          <Logo />
+          <img src="/frame-smith2nobg.png" alt="" width="24" height="24" aria-hidden />
+          <span>frame-smith</span>
           <span class="u-sr-only">{logoAlt}</span>
         </a>
 
@@ -129,6 +129,9 @@ const { logoUrl, logoAlt, link1, link2, links } = Astro.props;
   .logo {
     position: relative;
     z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 
     svg {
       width: 2.4rem;
