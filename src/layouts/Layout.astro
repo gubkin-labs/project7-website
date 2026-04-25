@@ -1,7 +1,7 @@
 ---
 import { Font } from "astro:assets";
-import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 import SmoothScroll from "../components/SmoothScroll.astro";
 import { useTranslations } from "../i18n/utils";
 import "../styles/global.css";
@@ -29,8 +29,8 @@ const links = [];
       logoUrl="/"
       logoAlt="project7-website"
       links={links}
-      link1={{ title: "Login", url: "#" }}
-      link2={{ title: "Get Started", url: "#" }}
+      link1={{ title: "Login", url: "https://app.frame-smith.com" }}
+      link2={{ title: "Get Started", url: "https://app.frame-smith.com" }}
     />
     <main id="main">
       <slot />
